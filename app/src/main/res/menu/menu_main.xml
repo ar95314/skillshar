@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.abhis.sample.MainActivity">
+    <item
+        android:id="@+id/action_signout"
+        android:orderInCategory="100"
+        android:title="Sign out"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/send2"
+        android:title="Add post"
+        app:showAsAction="always"
+        />
+</menu>
